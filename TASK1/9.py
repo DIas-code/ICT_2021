@@ -1,0 +1,5 @@
+y1=float(input("1 year amount money: "))
+y2=float(input("1 year amount money: "))
+y3=float(input("1 year amount money: "))
+t=0.04*(y1+y2+y3)
+print("Savings equal: ",round(t,2))
