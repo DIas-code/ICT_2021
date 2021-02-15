@@ -1,8 +1,11 @@
+import random
+mylist=["00","0",1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36,2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35]
+number=random.choice(mylist)
 red=[1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36]
 black=[2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35]
 green="0"
 green2="00"
-number=input("The spin resulted in ")
+print("The spin resulted in ",number,"...")
 if number==green2:
     print("Pay 00")
 elif  number==green:
