@@ -1,8 +1,9 @@
 import random
-a=0
+a=random.randint(1,100)
+print(a)
 up=0
-mx=0
-for i in range(100):
+mx=a
+for i in range(99):
     a=random.randint(1,100)
     if a>mx:
         mx=a
