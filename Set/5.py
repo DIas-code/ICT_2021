@@ -1,0 +1,5 @@
+set_a = set(['Python', 'Free', 'Exercises', 'Tutorials', 'Sets', 'Library'])
+set_a.pop()
+print(set_a)
+set_a.pop()
+print(set_a)
